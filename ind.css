@@ -1,0 +1,34 @@
+
+html{
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* container */
+.cont{
+    margin: 1rem;
+    min-height: 10rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+}
+/* divider */
+.section-divider {
+    width: 80%;
+    border: none;
+    border-top: 3px solid #000;
+    margin-top: 20px;
+}
