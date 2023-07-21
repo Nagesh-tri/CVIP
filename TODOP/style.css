@@ -1,0 +1,111 @@
+html,body{
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.8s ease;
+    
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#header>h2{
+    background-color: white;
+
+}
+/* 
+ */
+.sticky-section {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.sticky-section>h3{
+    background-color: white;
+
+}
+.sticky-section>button{
+    margin: 10px;
+}
+  
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.main>input{
+    width: 80%;
+    height: 5vw;
+    text-align: center;
+    max-width: 300px;
+    padding: 1vw;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+.main>input::placeholder {
+    color: blue;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* Buttn */
+.m-btn {
+    margin-top: 20px; /* Add margin to create spacing below the input field */
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+  
+.m-btn:hover {
+    background-color: #FF00FF;
+}
+  
+.m-btn:focus {
+    outline: none;
+}
+
+
+.section-divider {
+    width: 80%;
+    border: none;
+    border-top: 3px solid #000;
+    margin-top: 20px;
+}
+
+/* Task area */
+.list{
+    
+}
+.task-item {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin-top: 20px;
+    font-size: 3vw;
+    font-weight: 800;
+    justify-content: space-around;
+    overflow-y: scroll
+}
+  
+.task-item input[type="checkbox"] {
+    height: 3vw;
+    transform: scale(2.5);
+    margin: auto 20px;
+}
+.delete-btn {
+    margin-left: 10px;
+    cursor: pointer;
+  }
